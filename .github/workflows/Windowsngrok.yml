@@ -39,4 +39,3 @@ jobs:
             while ps axg | grep -vw grep | grep -w qemu-system-x86_64 > /dev/null; do sleep 1; done
             while ps axg | grep -vw grep | grep -w kvm > /dev/null; do sleep 1; done
           done
-            sleep: 47200
